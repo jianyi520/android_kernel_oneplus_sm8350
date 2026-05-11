@@ -1159,8 +1159,6 @@ static int ramoops_probe(struct platform_device *pdev)
 #endif
 	register_minidump(cxt);
 
-	register_minidump(cxt);
-
 	return 0;
 
 fail_buf:
